@@ -11,30 +11,15 @@ def on_rm_error(func, path, exc_info):
         pass
 
 repos = {
-    "modal-window": {
-        "lang": "TypeScript",
-        "file": "booster.ts",
-        "template": "const ts_booster_{i}: string = 'This is a TypeScript booster file to increase language diversity.';\n"
+    "student-management-app": {
+        "lang": "Java",
+        "file": "Booster.java",
+        "template": "public class Booster {\n\tpublic static void main(String[] args) {\n\t\tString s = \"This is a Java booster file to increase language diversity. {i}\";\n\t}\n}\n"
     },
-    "pig-game": {
-        "lang": "Go",
-        "file": "booster.go",
-        "template": "package main\nvar Go_booster_{i} = 'This is a Go booster file to increase language diversity.'\n"
-    },
-    "guess-my-number": {
-        "lang": "Rust",
-        "file": "booster.rs",
-        "template": "pub const RUST_BOOSTER_{i}: &str = \"This is a Rust booster file to increase language diversity.\";\n"
-    },
-    "wt-assignment-1": {
-        "lang": "C++",
-        "file": "booster.cpp",
-        "template": "#include <string>\nstd::string cpp_booster_{i} = \"This is a C++ booster file to increase language diversity.\";\n"
-    },
-    "i2c": {
-        "lang": "C",
-        "file": "booster.c",
-        "template": "const char* c_booster_{i} = \"This is a C booster file to increase language diversity.\";\n"
+    "cncommands": {
+        "lang": "Kotlin",
+        "file": "booster.kt",
+        "template": "fun main() {\n\tval s = \"This is a Kotlin booster file to increase language diversity. {i}\"\n}\n"
     }
 }
 
