@@ -2,11 +2,11 @@ import subprocess
 import time
 
 FILE_NAME = "activity_log.txt"
-NUM_PUSHES = 250
+NUM_PUSHES = 950
 
 print(f"Starting to generate remaining individual push events up to {NUM_PUSHES}...")
 
-for i in range(101, NUM_PUSHES + 1):
+for i in range(851, NUM_PUSHES + 1):
     # Log some dummy change
     with open(FILE_NAME, "a") as f:
         f.write(f"Activity event #{i} at {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
